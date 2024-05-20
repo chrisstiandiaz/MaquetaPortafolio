@@ -1,10 +1,10 @@
-body {
-    background-color: white;
-    color: #333;
+body, html {
+    height: 100%;
 }
 
 .hero-section {
-    padding: 60px 0;
+    height: 85vh; /* Ocupa toda la altura de la ventana */
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
 }
 
 .hero-section .display-4 {
@@ -20,12 +20,5 @@ body {
     max-width: 100%;
     height: auto;
     border: 5px solid #fff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-
-.hero-section .container {
-    background-color: #f8f9fa;
-    border-radius: 15px;
-    padding: 40px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
